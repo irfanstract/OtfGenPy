@@ -1,0 +1,79 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+
+
+
+
+# cached dependencies
+node_modules
+.node_modules/
+/.pnp
+.pnp.js
+yarn.lock
+
+# test-run output files 
+/coverage
+TEST-results.xml
+
+# RUNNABLE/COMPILED/IR
+dist
+build
+built/*
+bin
+target/
+# Next
+.next/
+# Vite(JS)
+dist-ssr
+# Python
+__pycache__
+*.pyc
+*.pyo
+# Scala Metals
+.bloop/
+.metals/
+.ammonite/
+metals.sbt
+
+# Optional linting cache
+.eslintcache
+
+# repo-unworthy Logfiles
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*v8.log
+
+# IDE-specifiques 
+# oftentimes there arise needs to make changes to `settings.json` due to failures to build and run  
+# VSCode's C/C++ Extension frequently modify `settings.json` (eg for `files.associations`)
+.settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/.vscode/*
+!/.vscode/extensions.json
+.idea
+
+# Platform-specifiques 
+.DS_Store
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+/test/
+/src/_x/numeric*
+# /.env
+*.local
+
+
+
+
+
+
